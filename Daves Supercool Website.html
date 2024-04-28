@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daves super cool decorating buisness</title>
+</head>
+
+
+<body>
+    <h1>Job details</h1> <!Main title>
+
+    <form method = "post" action="https://script.google.com/macros/s/AKfycbwh53V-dR6cMnbxBQ2f_n0AOJysK3tDXkEK0-n-D28qrkvzKKNZZsodXA0Q3iNN0CNT5A/exec" name="DavidMurrayDecorating">
+
+        <br><br>
+        <label>Todays Date:</label>
+        <input type="date" id="TodaysDate" name="TodaysDate" value="yyyy-mm-dd" min="2024-01-01" max="3024-01-01" />
+
+        <br><br>
+        <label>Client Name:</label>
+        <input id="tname" type="text" name="ClientName">
+        <h5 id="show"></h5>
+
+        <label>Client Address:</label>
+        <input id="taddress" type="text" name="ClientAddress">
+        <h5 id="show"></h5>
+
+        <label>Client Phone Number:</label>
+        <input type="number" id="tphone" type="text" name="ClientPhoneNumber">
+        <h5 id="show"></h5>
+
+        <label>Client Email:</label>
+        <input type="email" id="temail" type="text" name="ClientEmail">
+        <h5 id="show"></h5>
+
+        <label>Start Date:</label>
+        <input type="date" id="startDate" name="StartDate" value="yyyy-mm-dd" min="2024-01-01" max="3024-01-01" />
+        <label>End Date:</label>
+        <input type="date" id="endDate" name="EndDate" value="yyyy-mm-dd" min="2024-01-01" max="3024-01-01" />
+
+        <br><br>
+
+        <fieldset style="width:250px" id="clone">
+                <label>Room One:</label>
+                <select name="RoomOne">
+                    <option value="Select Room">Select Room</option>
+                    <option value="Halls/Stairs/Landing">Halls/Stairs/Landing</option>
+                    <option value="Living Room">Living Room</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Dining Room">Dining Room</option>
+                    <option value="Kitchen + Dining Room">Kitchen + Dining Room</option>
+                    <option value="Utility Room">Utility Room</option>
+                    <option value="Downstairs Bathroom">Downstairs Bathroom</option>
+                    <option value="Bathroom">Bathroom</option>
+                    <option value="Bedroom 1">Bedroom 1</option>
+                    <option value="Bedroom 1 + Ensuite">Bedroom 1 + Ensuite</option>
+                    <option value="Bedroom 2">Bedroom 2</option>
+                    <option value="Bedroom 2 + Ensuite">Bedroom 2 + Ensuite</option>
+                    <option value="Bedroom 3">Bedroom 3</option>
+                    <option value="Bedroom 3 + Ensuite">Bedroom 3 + Ensuite</option>
+                    <option value="Bedroom 4">Bedroom 4</option>
+                    <option value="Bedroom 4 + Ensuite">Bedroom 4 + Ensuite</option>
+                    <option value="Bedroom 5">Bedroom 5</option>
+                    <option value="Bedroom 5 + Ensuite">Bedroom 5 + Ensuite</option>
+                </select>
+                <br></br>
+
+                <label for="paint">Paint:</label>
+                <input type="checkbox" id="paint" name="Paint R1" value="yes">
+                <label for="wallpaper">Wallpaper:</label>
+                <input type="checkbox" id="wallpaper" name="Wallpaper R1" value="yes">
+                
+                <br></br>
+                <label for="ceiling"> Ceiling:</label>
+                <input type="checkbox" id="ceiling" name="Ceiling R1" value="yes">
+                <div></div>
+                <label for="woodwork">Woodwork:</label>
+                <input type="checkbox" id="woodwork" name="Woodwork R1" value="yes">
+                <div></div>
+                <label for="stipWall">Strip Wallpaper:</label>
+                <input type="checkbox" id="stipWall" name="StripWall R1" value="yes">
+                <div></div>
+
+                <br></br>
+                <label>No. of Walls:</label>
+                <input id="twalls" type="text" name="No-of-Walls R1">
+                <h5 id="show"></h5>
+
+                <label>Wall Colours:</label>
+                    <div></div>
+                    <textarea  type="text" id="wallColour" name="WallColour R1" size="50"></textarea>
+                
+                <br></br>
+
+                <label>Wall Dimensions:</label>
+                    <div></div>
+                    <textarea  type="text" id="wallDimensions" name="WallDimensions R1" size="50"></textarea>
+                
+                <br></br>
+
+                <label>Comments:</label>
+                    <div></div>
+                    <textarea type="text" id="comments" name="Comments R1" size="50"></textarea>
+                    
+        </fieldset>
+
+        <fieldset style="width:250px" id="clone">
+            <label>Room Two:</label>
+            <select name="RoomTwo">
+                <option value="Select Room">Select Room</option>
+                <option value="Halls/Stairs/Landing">Halls/Stairs/Landing</option>
+                <option value="Living Room">Living Room</option>
+                <option value="Kitchen">Kitchen</option>
+                <option value="Dining Room">Dining Room</option>
+                <option value="Kitchen + Dining Room">Kitchen + Dining Room</option>
+                <option value="Utility Room">Utility Room</option>
+                <option value="Downstairs Bathroom">Downstairs Bathroom</option>
+                <option value="Bathroom">Bathroom</option>
+                <option value="Bedroom 1">Bedroom 1</option>
+                <option value="Bedroom 1 + Ensuite">Bedroom 1 + Ensuite</option>
+                <option value="Bedroom 2">Bedroom 2</option>
+                <option value="Bedroom 2 + Ensuite">Bedroom 2 + Ensuite</option>
+                <option value="Bedroom 3">Bedroom 3</option>
+                <option value="Bedroom 3 + Ensuite">Bedroom 3 + Ensuite</option>
+                <option value="Bedroom 4">Bedroom 4</option>
+                <option value="Bedroom 4 + Ensuite">Bedroom 4 + Ensuite</option>
+                <option value="Bedroom 5">Bedroom 5</option>
+                <option value="Bedroom 5 + Ensuite">Bedroom 5 + Ensuite</option>
+            </select>
+            <br></br>
+
+            <label for="paint">Paint:</label>
+            <input type="checkbox" id="paint" name="Paint R2" value="yes">
+            <label for="wallpaper">Wallpaper:</label>
+            <input type="checkbox" id="wallpaper" name="Wallpaper R2" value="yes">
+            
+            <br></br>
+            <label for="ceiling"> Ceiling:</label>
+            <input type="checkbox" id="ceiling" name="Ceiling R2" value="yes">
+            <div></div>
+            <label for="woodwork">Woodwork:</label>
+            <input type="checkbox" id="woodwork" name="Woodwork R2" value="yes">
+            <div></div>
+            <label for="stipWall">Strip Wallpaper:</label>
+            <input type="checkbox" id="stipWall" name="StripWall R2" value="yes">
+            <div></div>
+
+            <br></br>
+            <label>No. of Walls:</label>
+            <input id="twalls" type="text" name="No-of-Walls R2">
+            <h5 id="show"></h5>
+
+            <label>Wall Colours:</label>
+                <div></div>
+                <textarea  type="text" id="wallColour" name="WallColour R2" size="50"></textarea>
+            
+            <br></br>
+
+            <label>Wall Dimensions:</label>
+                <div></div>
+                <textarea  type="text" id="wallDimensions" name="WallDimensions R2" size="50"></textarea>
+            
+            <br></br>
+
+            <label>Comments:</label>
+                <div></div>
+                <textarea type="text" id="comments" name="Comments R2" size="50"></textarea>
+                
+    </fieldset>
+
+    <fieldset style="width:250px" id="clone">
+        <label>Room Three:</label>
+        <select name="RoomThree">
+            <option value="Select Room">Select Room</option>
+            <option value="Halls/Stairs/Landing">Halls/Stairs/Landing</option>
+            <option value="Living Room">Living Room</option>
+            <option value="Kitchen">Kitchen</option>
+            <option value="Dining Room">Dining Room</option>
+            <option value="Kitchen + Dining Room">Kitchen + Dining Room</option>
+            <option value="Utility Room">Utility Room</option>
+            <option value="Downstairs Bathroom">Downstairs Bathroom</option>
+            <option value="Bathroom">Bathroom</option>
+            <option value="Bedroom 1">Bedroom 1</option>
+            <option value="Bedroom 1 + Ensuite">Bedroom 1 + Ensuite</option>
+            <option value="Bedroom 2">Bedroom 2</option>
+            <option value="Bedroom 2 + Ensuite">Bedroom 2 + Ensuite</option>
+            <option value="Bedroom 3">Bedroom 3</option>
+            <option value="Bedroom 3 + Ensuite">Bedroom 3 + Ensuite</option>
+            <option value="Bedroom 4">Bedroom 4</option>
+            <option value="Bedroom 4 + Ensuite">Bedroom 4 + Ensuite</option>
+            <option value="Bedroom 5">Bedroom 5</option>
+            <option value="Bedroom 5 + Ensuite">Bedroom 5 + Ensuite</option>
+        </select>
+        <br></br>
+
+        <label for="paint">Paint:</label>
+        <input type="checkbox" id="paint" name="Paint R3" value="yes">
+        <label for="wallpaper">Wallpaper:</label>
+        <input type="checkbox" id="wallpaper" name="Wallpaper R3" value="yes">
+        
+        <br></br>
+        <label for="ceiling"> Ceiling:</label>
+        <input type="checkbox" id="ceiling" name="Ceiling R3" value="yes">
+        <div></div>
+        <label for="woodwork">Woodwork:</label>
+        <input type="checkbox" id="woodwork" name="Woodwork R3" value="yes">
+        <div></div>
+        <label for="stipWall">Strip Wallpaper:</label>
+        <input type="checkbox" id="stipWall" name="StripWall R3" value="yes">
+        <div></div>
+
+        <br></br>
+        <label>No. of Walls:</label>
+        <input id="twalls" type="text" name="No-of-Walls R3">
+        <h5 id="show"></h5>
+
+        <label>Wall Colours:</label>
+            <div></div>
+            <textarea  type="text" id="wallColour" name="WallColour R3" size="50"></textarea>
+        
+        <br></br>
+
+        <label>Wall Dimensions:</label>
+            <div></div>
+            <textarea  type="text" id="wallDimensions" name="WallDimensions R3" size="50"></textarea>
+        
+        <br></br>
+
+        <label>Comments:</label>
+            <div></div>
+            <textarea type="text" id="comments" name="Comments R3" size="50"></textarea>
+            
+</fieldset>
+
+<fieldset style="width:250px" id="clone">
+    <label>Room Four:</label>
+    <select name="RoomFour">
+        <option value="Select Room">Select Room</option>
+        <option value="Halls/Stairs/Landing">Halls/Stairs/Landing</option>
+        <option value="Living Room">Living Room</option>
+        <option value="Kitchen">Kitchen</option>
+        <option value="Dining Room">Dining Room</option>
+        <option value="Kitchen + Dining Room">Kitchen + Dining Room</option>
+        <option value="Utility Room">Utility Room</option>
+        <option value="Downstairs Bathroom">Downstairs Bathroom</option>
+        <option value="Bathroom">Bathroom</option>
+        <option value="Bedroom 1">Bedroom 1</option>
+        <option value="Bedroom 1 + Ensuite">Bedroom 1 + Ensuite</option>
+        <option value="Bedroom 2">Bedroom 2</option>
+        <option value="Bedroom 2 + Ensuite">Bedroom 2 + Ensuite</option>
+        <option value="Bedroom 3">Bedroom 3</option>
+        <option value="Bedroom 3 + Ensuite">Bedroom 3 + Ensuite</option>
+        <option value="Bedroom 4">Bedroom 4</option>
+        <option value="Bedroom 4 + Ensuite">Bedroom 4 + Ensuite</option>
+        <option value="Bedroom 5">Bedroom 5</option>
+        <option value="Bedroom 5 + Ensuite">Bedroom 5 + Ensuite</option>
+    </select>
+    <br></br>
+
+    <label for="paint">Paint:</label>
+    <input type="checkbox" id="paint" name="Paint R4" value="yes">
+    <label for="wallpaper">Wallpaper:</label>
+    <input type="checkbox" id="wallpaper" name="Wallpaper R4" value="yes">
+    
+    <br></br>
+    <label for="ceiling"> Ceiling:</label>
+    <input type="checkbox" id="ceiling" name="Ceiling R4" value="yes">
+    <div></div>
+    <label for="woodwork">Woodwork:</label>
+    <input type="checkbox" id="woodwork" name="Woodwork R4" value="yes">
+    <div></div>
+    <label for="stipWall">Strip Wallpaper:</label>
+    <input type="checkbox" id="stipWall" name="StripWall R4" value="yes">
+    <div></div>
+
+    <br></br>
+    <label>No. of Walls:</label>
+    <input id="twalls" type="text" name="No-of-Walls R4">
+    <h5 id="show"></h5>
+
+    <label>Wall Colours:</label>
+        <div></div>
+        <textarea  type="text" id="wallColour" name="WallColour R4" size="50"></textarea>
+    
+    <br></br>
+
+    <label>Wall Dimensions:</label>
+        <div></div>
+        <textarea  type="text" id="wallDimensions" name="WallDimensions R4" size="50"></textarea>
+    
+    <br></br>
+
+    <label>Comments:</label>
+        <div></div>
+        <textarea type="text" id="comments" name="Comments R4" size="50"></textarea>
+        
+</fieldset>
+
+<fieldset style="width:250px" id="clone">
+    <label>Room Five:</label>
+    <select name="RoomFive">
+        <option value="Select Room">Select Room</option>
+        <option value="Halls/Stairs/Landing">Halls/Stairs/Landing</option>
+        <option value="Living Room">Living Room</option>
+        <option value="Kitchen">Kitchen</option>
+        <option value="Dining Room">Dining Room</option>
+        <option value="Kitchen + Dining Room">Kitchen + Dining Room</option>
+        <option value="Utility Room">Utility Room</option>
+        <option value="Downstairs Bathroom">Downstairs Bathroom</option>
+        <option value="Bathroom">Bathroom</option>
+        <option value="Bedroom 1">Bedroom 1</option>
+        <option value="Bedroom 1 + Ensuite">Bedroom 1 + Ensuite</option>
+        <option value="Bedroom 2">Bedroom 2</option>
+        <option value="Bedroom 2 + Ensuite">Bedroom 2 + Ensuite</option>
+        <option value="Bedroom 3">Bedroom 3</option>
+        <option value="Bedroom 3 + Ensuite">Bedroom 3 + Ensuite</option>
+        <option value="Bedroom 4">Bedroom 4</option>
+        <option value="Bedroom 4 + Ensuite">Bedroom 4 + Ensuite</option>
+        <option value="Bedroom 5">Bedroom 5</option>
+        <option value="Bedroom 5 + Ensuite">Bedroom 5 + Ensuite</option>
+    </select>
+    <br></br>
+
+    <label for="paint">Paint:</label>
+    <input type="checkbox" id="paint" name="Paint R5" value="yes">
+    <label for="wallpaper">Wallpaper:</label>
+    <input type="checkbox" id="wallpaper" name="Wallpaper R5" value="yes">
+    
+    <br></br>
+    <label for="ceiling"> Ceiling:</label>
+    <input type="checkbox" id="ceiling" name="Ceiling R5" value="yes">
+    <div></div>
+    <label for="woodwork">Woodwork:</label>
+    <input type="checkbox" id="woodwork" name="Woodwork R5" value="yes">
+    <div></div>
+    <label for="stipWall">Strip Wallpaper:</label>
+    <input type="checkbox" id="stipWall" name="StripWall R5" value="yes">
+    <div></div>
+
+    <br></br>
+    <label>No. of Walls:</label>
+    <input id="twalls" type="text" name="No-of-Walls R5">
+    <h5 id="show"></h5>
+
+    <label>Wall Colours:</label>
+        <div></div>
+        <textarea  type="text" id="wallColour" name="WallColour R5" size="50"></textarea>
+    
+    <br></br>
+
+    <label>Wall Dimensions:</label>
+        <div></div>
+        <textarea  type="text" id="wallDimensions" name="WallDimensions R5" size="50"></textarea>
+    
+    <br></br>
+
+    <label>Comments:</label>
+        <div></div>
+        <textarea type="text" id="comments" name="Comments R5" size="50"></textarea>
+        
+</fieldset>
+
+        <br></br>
+        <button onclick="cloneFieldset()"> Add Room</button><button> Delete Room</button>
+
+        <br></br>
+        <h3>Click on the button below to complete the form</h3>
+        <button type="submit" name="submit" value="Register" onclick="submit">Submit</button>
+    </form>
+
+    <script src="DaveWeb.js"></script>
+
+    
+</body>
+
+
